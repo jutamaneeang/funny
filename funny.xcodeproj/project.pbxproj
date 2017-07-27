@@ -12,6 +12,7 @@
 		B11C60931F29E5090083346C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11C60911F29E5090083346C /* Main.storyboard */; };
 		B11C60951F29E5090083346C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B11C60941F29E5090083346C /* Assets.xcassets */; };
 		B11C60981F29E5090083346C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11C60961F29E5090083346C /* LaunchScreen.storyboard */; };
+		B11C60A01F29E5D40083346C /* web-prime-numbers-RF-getty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B11C609F1F29E5D40083346C /* web-prime-numbers-RF-getty.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B11C60941F29E5090083346C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B11C60971F29E5090083346C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B11C60991F29E5090083346C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B11C609F1F29E5D40083346C /* web-prime-numbers-RF-getty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "web-prime-numbers-RF-getty.jpg"; path = "../../../../Desktop/web-prime-numbers-RF-getty.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		B11C608C1F29E5090083346C /* funny */ = {
 			isa = PBXGroup;
 			children = (
+				B11C609F1F29E5D40083346C /* web-prime-numbers-RF-getty.jpg */,
 				B11C608D1F29E5090083346C /* AppDelegate.swift */,
 				B11C608F1F29E5090083346C /* ViewController.swift */,
 				B11C60911F29E5090083346C /* Main.storyboard */,
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B11C60981F29E5090083346C /* LaunchScreen.storyboard in Resources */,
+				B11C60A01F29E5D40083346C /* web-prime-numbers-RF-getty.jpg in Resources */,
 				B11C60951F29E5090083346C /* Assets.xcassets in Resources */,
 				B11C60931F29E5090083346C /* Main.storyboard in Resources */,
 			);
