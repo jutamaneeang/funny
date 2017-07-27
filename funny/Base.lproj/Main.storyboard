@@ -28,8 +28,16 @@
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <items>
                                     <navigationItem title="Home" id="nVI-XM-upI">
-                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="fGr-gs-gcK"/>
-                                        <barButtonItem key="rightBarButtonItem" systemItem="fastForward" id="Wbe-hg-efL"/>
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="fGr-gs-gcK">
+                                            <connections>
+                                                <action selector="decButton:" destination="BYZ-38-t0r" id="wQV-3V-Bku"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="fastForward" id="Wbe-hg-efL">
+                                            <connections>
+                                                <action selector="incButton:" destination="BYZ-38-t0r" id="Ese-PJ-NLC"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -55,6 +63,9 @@
                             <constraint firstAttribute="trailingMargin" secondItem="MZs-Bl-RAo" secondAttribute="trailing" id="xRE-rp-EPR"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="numberLabel" destination="MZs-Bl-RAo" id="jKF-gO-Bdq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
