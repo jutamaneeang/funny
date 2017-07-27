@@ -13,6 +13,15 @@ class MyClass {
     
     let strName = "Doramon"
     
+    //Decrease Number
+    func decreareNumber(intNumber: Int) -> Int {
+        
+        let intResult = intNumber - 1
+        return intResult
+        
+        
+    }
+    
     
     
 } //MyClass

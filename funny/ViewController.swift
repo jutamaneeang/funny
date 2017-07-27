@@ -14,7 +14,19 @@ class ViewController: UIViewController {
     
     
     @IBAction func decButton(_ sender: Any) {
-    }
+        
+        let strNumber = numberLabel.text
+        let intNumber = Int(strNumber!)
+        
+        let myClass = MyClass()
+        let intNewNumber = myClass.decreareNumber(intNumber: intNumber!)
+        print("Number ==> \(intNewNumber)")
+        
+        
+        
+        
+        
+    } //decButton
     
     
     @IBAction func incButton(_ sender: Any) {
