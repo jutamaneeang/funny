@@ -21,8 +21,8 @@ class ViewController: UIViewController {
         let myClass = MyClass()
         let intNewNumber = myClass.decreareNumber(intNumber: intNumber!)
         print("Number ==> \(intNewNumber)")
-        
-        
+       
+         showNumber(intNumber: intNewNumber)
         
         
         
@@ -36,14 +36,19 @@ class ViewController: UIViewController {
         let myClass = MyClass()
         let intNewNumber = myClass.increaseNumber(intNumber: intNumber!)
         print("Number ==>\(intNewNumber)")
+         showNumber(intNumber: intNewNumber)
         
         
+        
+    } //viewDidlode
+    
+    
+    func showNumber(intNumber: Int) -> Void {
+        
+    numberLabel.text = "\(intNumber)"
         
         
     }
-    
-    
-    
     
     
     

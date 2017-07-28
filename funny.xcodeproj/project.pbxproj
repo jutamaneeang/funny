@@ -14,6 +14,7 @@
 		B11C60981F29E5090083346C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11C60961F29E5090083346C /* LaunchScreen.storyboard */; };
 		B11C60A01F29E5D40083346C /* web-prime-numbers-RF-getty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B11C609F1F29E5D40083346C /* web-prime-numbers-RF-getty.jpg */; };
 		B11C60A21F29EA770083346C /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11C60A11F29EA770083346C /* MyClass.swift */; };
+		B123793B1F2AD79F00E44607 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B123793A1F2AD79F00E44607 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B11C60991F29E5090083346C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B11C609F1F29E5D40083346C /* web-prime-numbers-RF-getty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "web-prime-numbers-RF-getty.jpg"; path = "../../../../Desktop/web-prime-numbers-RF-getty.jpg"; sourceTree = "<group>"; };
 		B11C60A11F29EA770083346C /* MyClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
+		B123793A1F2AD79F00E44607 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		B11C60811F29E5090083346C = {
 			isa = PBXGroup;
 			children = (
+				B123793A1F2AD79F00E44607 /* README.md */,
 				B11C608C1F29E5090083346C /* funny */,
 				B11C608B1F29E5090083346C /* Products */,
 			);
@@ -145,6 +148,7 @@
 			files = (
 				B11C60901F29E5090083346C /* ViewController.swift in Sources */,
 				B11C608E1F29E5090083346C /* AppDelegate.swift in Sources */,
+				B123793B1F2AD79F00E44607 /* README.md in Sources */,
 				B11C60A21F29EA770083346C /* MyClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +313,7 @@
 				B11C609E1F29E5090083346C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
